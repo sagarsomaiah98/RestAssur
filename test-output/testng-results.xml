@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-27T11:50:17 GMT-05:00" name="Default suite" finished-at="2024-01-27T11:50:19 GMT-05:00" duration-ms="1154">
+  <suite started-at="2024-01-28T12:13:35 GMT-05:00" name="Default suite" finished-at="2024-01-28T12:13:37 GMT-05:00" duration-ms="1397">
     <groups>
     </groups>
-    <test started-at="2024-01-27T11:50:17 GMT-05:00" name="Default test" finished-at="2024-01-27T11:50:19 GMT-05:00" duration-ms="1154">
-      <class name="com.rest.serialization.StudentRecordsSerialize">
-        <test-method signature="jsonCreate()[pri:0, instance:com.rest.serialization.StudentRecordsSerialize@1ba9117e]" started-at="2024-01-27T11:50:17 GMT-05:00" name="jsonCreate" finished-at="2024-01-27T11:50:19 GMT-05:00" duration-ms="1103" status="PASS">
+    <test started-at="2024-01-28T12:13:35 GMT-05:00" name="Default test" finished-at="2024-01-28T12:13:37 GMT-05:00" duration-ms="1397">
+      <class name="comrest.deserialize.ReadJson">
+        <test-method signature="extractJsonPath()[pri:0, instance:comrest.deserialize.ReadJson@120f102b]" started-at="2024-01-28T12:13:35 GMT-05:00" name="extractJsonPath" finished-at="2024-01-28T12:13:37 GMT-05:00" duration-ms="1355" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- jsonCreate -->
-      </class> <!-- com.rest.serialization.StudentRecordsSerialize -->
+        </test-method> <!-- extractJsonPath -->
+      </class> <!-- comrest.deserialize.ReadJson -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
